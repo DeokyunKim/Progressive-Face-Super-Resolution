@@ -32,7 +32,7 @@ and then, download dataset. Anno & Img.
 #### Test model
 * Test trained model
 ```bash
-$ python eval.py --data-path './dataset' --checkpoint-path 'CHECKPOINT_PATH/****.ckpt'
+$ python eval.py --data-path './dataset' --checkpoint-path 'CHECKPOINT_PATH/generator_checkpoint.ckpt'
 ```
 
 * Test distributed trained model
@@ -40,7 +40,7 @@ $ python eval.py --data-path './dataset' --checkpoint-path 'CHECKPOINT_PATH/****
 $ python -m torch.distributed.launch --nproc_per_node=number_of_used_GPUs eval.py \
                                                  --distributed \
                                                  --data-path './dataset' \
-                                                 --checkpoint-path 'CHECKPOINT_PATH/****.ckpt'
+                                                 --checkpoint-path 'CHECKPOINT_PATH/generator_checkpoint_singleGPU.ckpt'
 ```
 
 
