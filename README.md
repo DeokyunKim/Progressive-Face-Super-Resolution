@@ -29,6 +29,13 @@ create a folder:
 ```
 and then, download dataset. Anno & Img.
 
+#### Demonstration
+* Single face image demonstartion
+```bash
+$ python demo.py --image-path ./figure/eval_target_image.jpeg --checkpoint-path 'CHECKPOINT_PATH/generator_checkpoint_singleGPU.ckpt' --output-path './OUTPUT_PATH/OUTPUT_NAME.jpeg'
+```
+
+
 #### Test model
 * Test trained model
 ```bash
