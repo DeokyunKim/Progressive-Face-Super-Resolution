@@ -26,7 +26,7 @@ def test(dataloader, generator, MSE_Loss, step, alpha):
 
         input_image = input_image.to(device)
         predicted_image = generator(input_image, step, alpha)
-        predicted_image = predict_image.double()
+        predicted_image = predicted_image.double()
         target_image = target_image.double()
         mse_loss = MSE_Loss(0.5*predicted_image+0.5, 0.5*target_image+0.5)
         psnr = 10*log10(1./mse_loss.item())
