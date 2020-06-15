@@ -1,6 +1,9 @@
 # Progressive Face Super-Resolution
 Deokyun Kim, Minseon Kim, Gihyun Kwon, and Dae-shik Kim, [Progressive Face Super-Resolution via Attention to Facial Landmark](https://arxiv.org/abs/1908.08239), The British Machine Vision Conference 2019 (BMVC 2019)
 
+**The authors have equally contributed.
+
+
 ## Overview
 ![our structure](./figure/our_structure.png)
 
