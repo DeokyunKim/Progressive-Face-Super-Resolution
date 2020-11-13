@@ -25,7 +25,8 @@ if __name__ == '__main__':
 
         input_image = Image.open(args.image_path).convert('RGB')
 
-        input_image = transforms.CenterCrop((178, 178))(input_image)
+        #for aligned CelebA evaluation images
+        #input_image = transforms.CenterCrop((178, 178))(input_image)
 
         _16x16_down_sampling = transforms.Resize((16,16))
         _64x64_down_sampling = transforms.Resize((64, 64))
