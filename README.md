@@ -1,5 +1,5 @@
 # Progressive Face Super-Resolution
-[Deokyun Kim](https://www.linkedin.com/in/deokyun-kim-44157a151)*, [Minseon Kim](https://kim-minseon.github.io/)*, Gihyun Kwon*, and Dae-shik Kim, [Progressive Face Super-Resolution via Attention to Facial Landmark](https://arxiv.org/abs/1908.08239), The British Machine Vision Conference 2019 (BMVC 2019)
+[Deokyun Kim*](https://www.linkedin.com/in/deokyun-kim-44157a151), [Minseon Kim*](https://kim-minseon.github.io/), Gihyun Kwon*, and Dae-shik Kim, [Progressive Face Super-Resolution via Attention to Facial Landmark](https://arxiv.org/abs/1908.08239), The British Machine Vision Conference 2019 (BMVC 2019)
 
 *The authors have equally contributed.
 
