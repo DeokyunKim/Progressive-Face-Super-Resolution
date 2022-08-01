@@ -16,7 +16,7 @@ if __name__ == '__main__':
     with torch.no_grad():
         generator = Generator().to(device)
         generator.eval()
-        g_checkpoint = torch.load(args.checkpoint_path)
+        g_checkpoint = torch.load(args.checkpoint_path, map_location=device)
         generator.load_state_dict(g_checkpoint['model_state_dict'], strict=False)
         step = g_checkpoint['step']
         alpha = g_checkpoint['alpha']

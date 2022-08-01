@@ -84,7 +84,7 @@ if __name__ == '__main__':
         generator = parallel.DistributedDataParallel(generator)
         generator = parallel.convert_syncbn_model(generator)
     else:
-        g_checkpoint = torch.load(args.checkpoint_path)
+        g_checkpoint = torch.load(args.checkpoint_path, map_location=device)
     
     generator.load_state_dict(g_checkpoint['model_state_dict'], strict=False)
     step = g_checkpoint['step']
